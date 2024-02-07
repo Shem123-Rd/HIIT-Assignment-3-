@@ -2,12 +2,12 @@ import tkinter as tk
 from tkinter import ttk
 from tkinter import filedialog
 
-class TextEditor(tk.Tk):
+class TextEditorteam118(tk.Tk):
     def __init__(self):
         super().__init__()
 
-        self.title("Text Editor")
-        self.geometry("1000*600")
+        self.title("Text Editor Team 118")
+        self.geometry("1000x600")
 
         self.text_area = tk.Text(self, wrap="word")
         self.text_area.pack(fill="both", expand=True)
